@@ -1,0 +1,72 @@
+.search-results {
+    margin:25px auto;
+    width:50%;
+}
+
+.result-link {
+
+    color: #000;
+}
+
+.result-link:visited {
+    color: #000;
+}
+
+.result-link:hover {
+    color: #70c4ff;
+}
+
+.result-poster {
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    margin: 5px 15px;
+}
+
+.poster-cell {
+    width: 15%;
+}
+
+.result-title {
+    font-weight:400;
+    width: 85%;
+}
+
+.result-year {
+    color: gray;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 5px;
+    margin:auto;
+    width:80%
+}
+
+
+tr {
+    cursor: pointer;
+     width: 100%;
+}
+
+td {
+    text-align: left;
+}
+
+.table-bottom-border {
+    border-bottom: 1px solid #8a8a86;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    table {
+        width: 100%
+    }
+    .search-results {
+        width: 80%
+    }
+}
+
+
+
